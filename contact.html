@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Ainu Archive</title>
+  <meta name="description" content="Get in touch with the Ainu Language Archive team for research inquiries, collaboration, or community engagement." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Ccircle cx='18' cy='18' r='18' fill='%23B4522C'/%3E%3Ctext x='18' y='24' text-anchor='middle' fill='white' font-size='18' font-family='serif' font-style='italic'%3EA%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-icon">A</span>
+        <span>Ainu Archive</span>
+      </a>
+      <button class="nav-hamburger" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="data.html">Data</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <header class="page-header">
+    <div class="container">
+      <span class="section-label">Connect</span>
+      <h1>Get in Touch</h1>
+      <p>Whether you are a researcher, a community member, or someone curious about the Ainu language — we would love to hear from you.</p>
+    </div>
+  </header>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Form -->
+        <div class="fade-in">
+          <h3 style="margin-bottom: 24px;">Send Us a Message</h3>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="">Select a topic…</option>
+                <option value="research">Research Inquiry</option>
+                <option value="data">Data Access / Contribution</option>
+                <option value="community">Community Collaboration</option>
+                <option value="education">Educational Use</option>
+                <option value="media">Media / Press</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+              Send Message →
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info fade-in fade-in-delay-2">
+          <h3 style="margin-bottom: 4px;">Other Ways to Reach Us</h3>
+          <p style="color: var(--color-text-secondary); margin-bottom: 8px; font-size: 0.9rem;">
+            Prefer email or post? Here are our direct channels.
+          </p>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">✉</div>
+            <div>
+              <h4>Email</h4>
+              <p>ainu.archive@hokudai.ac.jp</p>
+              <p style="font-size: 0.8rem; color: var(--color-text-muted);">General inquiries: response within 3–5 business days</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">🏛</div>
+            <div>
+              <h4>Postal Address</h4>
+              <p>
+                Ainu Language Archive Project<br/>
+                Department of Linguistics, Hokkaido University<br/>
+                Kita 10, Nishi 7, Kita-ku<br/>
+                Sapporo 060-0810, Japan
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">🐙</div>
+            <div>
+              <h4>GitHub</h4>
+              <p><a href="#">github.com/ainu-language-archive</a></p>
+              <p style="font-size: 0.8rem; color: var(--color-text-muted);">Source code, data exports, and issue tracker</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">📋</div>
+            <div>
+              <h4>Data Usage Policy</h4>
+              <p style="font-size: 0.9rem;">
+                All materials in this archive are licensed under
+                <strong>Creative Commons BY-NC 4.0</strong> unless otherwise noted.
+                You are free to share and adapt the data for non-commercial purposes
+                with appropriate attribution. Contact us for commercial licensing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">Ainu Archive</div>
+          <p>A digital repository dedicated to preserving Ainu language data for future generations. Free for educational and research use.</p>
+        </div>
+        <div>
+          <div class="footer-heading">Pages</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="data.html">Language Data</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Data</div>
+          <ul class="footer-links">
+            <li><a href="data.html">Vocabulary</a></li>
+            <li><a href="data.html">Grammar</a></li>
+            <li><a href="data.html">Stories</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Connect</div>
+          <ul class="footer-links">
+            <li><a href="contact.html">Get in Touch</a></li>
+            <li><a href="#">GitHub Repository</a></li>
+            <li><a href="#">ELAR Archive</a></li>
+            <li><a href="#">UNESCO</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="copyright-year">2026</span> Ainu Language Archive Project. Licensed under CC BY-NC 4.0.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
