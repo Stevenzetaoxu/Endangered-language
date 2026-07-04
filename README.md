@@ -1,4 +1,4 @@
-# Ainu Language Archive
+# nDrapa Language Archive
 
 A digital archive website for endangered language data collected by linguists. Built for GitHub Pages — no build tools required.
 
@@ -15,7 +15,7 @@ A digital archive website for endangered language data collected by linguists. B
 ## Features
 
 - **Audio playback** — Click any word or sentence to hear it spoken. Visual feedback with pulsing button animations and a playback notification toast.
-- **Searchable vocabulary** — Filter words by Ainu script, IPA transcription, or English translation.
+- **Searchable vocabulary** — Filter words by IPA transcription, script, or English translation.
 - **Tabbed data browser** — Switch between vocabulary, grammar, and stories views.
 - **Scroll animations** — Sections fade in as you scroll.
 - **Mobile responsive** — Adaptive layout for phones, tablets, and desktops.
@@ -28,7 +28,7 @@ A digital archive website for endangered language data collected by linguists. B
    ```bash
    git init
    git add .
-   git commit -m "Initial commit: Ainu Language Archive"
+   git commit -m "Initial commit: nDrapa Language Archive"
    git branch -M main
    git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git
    git push -u origin main
@@ -44,7 +44,7 @@ That's it. All pages link to each other with relative URLs, so they work immedia
 
 ## Customization
 
-- **Replace the language**: Edit the text in each `.html` file to adapt it for a different endangered language.
+- **Replace the language**: The sample data uses nDrapa (Zhaba), a Tibeto-Burman language of Sichuan. Edit the text in each `.html` file to adapt it for a different endangered language.
 - **Add real audio**: Place `.mp3` or `.wav` files in an `audio/` folder and update the `vocab-audio-btn` click handlers in `js/main.js` to play real files instead of simulating playback.
 - **Add a real map**: Replace the `.map-fallback` div in `index.html` with an embedded Leaflet or Google Maps iframe.
 - **Add actual photos**: Replace the `.gallery-placeholder` divs with `<img>` tags pointing to real images.
